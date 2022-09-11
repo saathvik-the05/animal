@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title>Animal Sound Web App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="col-xs-12 header_div text-center text-capitalize">
+    <h2>The animals dance when you play sounds</h2>
+    <p>you can make sounds like roar, bark , meow , chirp , etc </p>
+  </div>
+  <div class="main_div">
+    <center>
+      <br>
+      <button class="btn btn-info" onclick="Findthesound()">find!</button>
+      <h3 class="the_result_label">The sound which you played is -</h3>
+      <h3 class="the_result_label_confidence">The Accuracy -</h3>
+      <br>
+      <img src="dog.png" id="aliens-01" width="300" height="300">
+      <img src="cat.png" id="aliens-02" width="300" height="300">
+      <img src="lion.png" id="aliens-03" width="300" height="300">
+      <img src="bird.png" id="aliens-04" width="300" height="300">
+
+    </center>
+  </div>
+  <div class="The_footer">
+    Made by - YOU 
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: 'Black Ops One', cursive;
+}
+
+.header_div {
+    color: cyan;
+    background-color: darkgoldenrod;
+}
+
+.header_div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b53531;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_div {
+    color: #b53531;
+    background-color: lightblue;
+}
+
+.main_div button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.The_footer {
+    position: fixed;
+    color: #FFD700;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: darkcyan;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px seashell;
+}
